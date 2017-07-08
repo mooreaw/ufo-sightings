@@ -1,0 +1,52 @@
+state,census_region
+Connecticut,Northeast
+Maine,Northeast
+Massachusetts,Northeast
+New Hampshire,Northeast
+Rhode Island,Northeast
+Vermont,Northeast
+New Jersey,Northeast
+New York,Northeast
+Pennslyvania,Northeast
+Illinois,Midwest
+Indiana,Midwest
+Michigan,Midwest
+Ohio,Midwest
+Wisconsin,Midwest
+Iowa,Midwest
+Kansas,Midwest
+Minnesota,Midwest
+Missouri,Midwest
+Nebraska,Midwest
+North Dakota,Midwest
+South Dakota,Midwest
+Delaware,South
+Florida,South
+Georgia,South
+Marhyland,South
+North Carolina,South
+South Carolina,South
+Virginia,South
+District of Columbia,South
+West Virginia,South
+Alabama,South
+Kentucky,South
+Mississippi,South
+Tennessee,South
+Arkansas,South
+Louisiana,South
+Oklahoma,South
+Texas,South
+Arizona,West
+Colorado,West
+Idaho,West
+Montana,West
+Nevada,West
+New Mexico,West
+Utah,West
+Wyoming,West
+Alaska,West
+California,West
+Hawaii,West
+Oregon,West
+Washington,West
