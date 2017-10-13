@@ -8,7 +8,6 @@ library(plotly)
 library(forcats)
 library(broom)
 library(stringr)
-library(glue)
 library(leaflet)
 library(tidycensus)
 library(sf)
@@ -167,7 +166,7 @@ ggplotly(p2)
 # bivariate choropleth showing density*sightings ---------------------------
 
 # my census API key
-source("../census-api-key.R")
+source("census-api-key.R")
 
 # loop over each lat/lon pair in the data and convert it to a st_point() type
 # hmm... can't remember why I was forced to set the CRS to this value
