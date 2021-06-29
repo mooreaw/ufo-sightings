@@ -24,7 +24,7 @@ library(tidyverse)
 library(lubridate)
 library(stringr)
 
-us <- read_csv("scrubbed.csv.zip") %>%
+us <- read_csv("../data/scrubbed.csv.zip") %>%
   mutate(
     date_time    = mdy_hm(datetime),
     year_sighted = year(date_time)
@@ -117,7 +117,7 @@ p2
 Bigfoot sightings, 1921-2013 (Joshua Stevens [`@jscarto`](https://twitter.com/jscarto))
 
 ```{r, out.width="450px", fig.align="center"}
-knitr::include_graphics("jscarto-squatch-map.png")
+knitr::include_graphics("../img/jscarto-squatch-map.png")
 ```
 
 ## We can use `tidycensus` and the `sf` package to get our population data

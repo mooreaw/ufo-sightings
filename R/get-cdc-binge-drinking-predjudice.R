@@ -16,4 +16,4 @@ binge_clean <- data_frame(txt = binge) %>%
   separate(txt, c("state", "pct"), "-") %>%
   mutate(pct = as.numeric(pct))
 
-write_csv(binge_clean, "2015-binge-prev-cdc.csv")
+write_csv(binge_clean, "../data/2015-binge-prev-cdc.csv")
